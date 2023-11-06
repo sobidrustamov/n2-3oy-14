@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+}
+.container .main-game {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  text-align-last: left;
+}
+.container .main-game form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container .main-game form input,
+.container .main-game form button {
+  padding: 1rem 2rem;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.container .main-game form button {
+  align-self: center;
+}
+.container .main-game .info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .main-game .info p {
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */
